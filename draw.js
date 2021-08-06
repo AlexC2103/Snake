@@ -19,7 +19,7 @@ var snake;
     if (snake.eat(food)) {
       food.pickRandomLocation();
     }
-  }, 125);
+  }, 62.5);
 }());
 
 window.addEventListener('keydown', ((event) => {
